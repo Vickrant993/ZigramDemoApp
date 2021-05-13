@@ -1,0 +1,21 @@
+/** variable according to the color codes */
+$color-white: #FFFFFF;
+
+* {
+    color: $color-white;
+}
+
+/** main wrapper class */
+.main-wrapper {
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    
+    h2 {
+        margin-bottom: 3%;
+    }
+
+    .header-section {
+        margin-bottom: 5%;
+    }
+}
